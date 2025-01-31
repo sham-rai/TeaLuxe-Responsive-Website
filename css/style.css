@@ -91,3 +91,27 @@ body {
   max-width: 704px;
   margin: 150px auto;
 }
+
+@media (max-width: 1000px) {
+  .user-actions__item-search {
+    margin-left: 30px;
+  }
+  .menu {
+    margin-right: auto;
+  }
+  .menu__list {
+    margin-left: 60px;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+  .header__inner {
+    min-height: auto;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 360px) {
+}
